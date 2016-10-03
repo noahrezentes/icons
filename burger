@@ -1,0 +1,119 @@
+<head>
+<style>
+#burger {
+  background:none;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+  padding: 6px;
+	padding-top:12px;
+}
+#burger li {
+  -webkit-transition: .2s;
+}
+.R1 {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: black;
+  margin-bottom:0px;
+  margin-left:6px;
+}
+.L1 {
+  display: block;
+  width: 4px;
+  height: 2px;
+  background: black;
+  margin-top:-2px;
+}
+.R2 {
+  display: block;
+  width: 11px;
+  height: 2px;
+  background: black;
+  margin-top:3px;
+  margin-left:13px;
+}
+.L2 {
+  display: block;
+  width: 11px;
+  height: 2px;
+  background: black;
+  margin-top:-2px;
+}
+.R3 {
+  display: block;
+  width: 4px;
+  height: 2px;
+  background: black;
+  margin-top:3px;
+  margin-left:20px;
+}
+.L3 {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: black;
+  margin-top:-2px;
+  margin-left:0px;
+}
+#burger:hover .R1{
+  display: block;
+  width: 8px;
+  height: 2px;
+  background: black;
+  margin-top:0;
+  margin-left:16px;
+}
+#burger:hover .L1 {
+  display: block;
+  width: 14px;
+  height: 2px;
+  background: black;
+  margin-top:-2px;
+  margin-left:0px;
+}
+#burger:hover .R2 {
+  display: block;
+  width: 4px;
+  height: 2px;
+  background: black;
+  margin-top:3px;
+  margin-left:20px;
+}
+#burger:hover .L2 {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: black;
+  margin-top:-2px;
+  margin-left:0px;
+}
+#burger:hover .R3 {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: black;
+  margin-top:3px;
+  margin-left:6px;
+}
+#burger:hover .L3 {
+  display: block;
+  width: 4px;
+  height: 2px;
+  background: black;
+  margin-top:-2px;
+  margin-left:0px;
+}
+</style>
+</head>
+<body>
+<div id="burger">
+	<li class="R1"></li>
+	<li class="L1"></li>
+	<li class="R2"></li>
+	<li class="L2"></li>
+	<li class="R3"></li>
+	<li class="L3"></li>
+</div>
+</body>
