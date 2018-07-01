@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs xmlns="http://www.w3.org/1999/xhtml"><style type="text/css"><![CDATA[
+svg { width: 16px; height: 16px; background: none; }
+svg.red { background: rgb(255, 0, 0); }
+svg.green { background: rgb(0, 128, 0); }
+svg.blue { background: rgb(0, 0, 255); }
+path { fill: none; stroke: rgb(0, 0, 0); stroke-width: 2px; transform-origin: center center 0px; stroke-linecap: round; stroke-linejoin: round; }
+path.arrow { d: path('M 4 6 L 8 2 L 12 6 M 8 2 L 8 14'); }
+path.arrow.n { transform: rotate(0deg); }
+path.arrow.ne { transform: rotate(45deg); }
+path.arrow.e { transform: rotate(90deg); }
+path.arrow.se { transform: rotate(135deg); }
+path.arrow.s { transform: rotate(180deg); }
+path.arrow.sw { transform: rotate(225deg); }
+path.arrow.w { transform: rotate(270deg); }
+path.arrow.nw { transform: rotate(315deg); }
+path.plus { d: path('M 8 4 L 8 12 M 4 8 L 12 8'); }
+path.minus { d: path('M 4 8 L 12 8'); }
+path.x { d: path('M 5 5 L 11 11 M 11 5 L 5 11'); }
+path.divide { d: path('M 8 5 L 8 5 M 4 8 L 12 8 M 8 11 L 8 11'); }
+path.equals { d: path('M 4 6 L 12 6 M 4 10 L 12 10'); }
+path.burger { d: path('M 3 4 L 13 4 M 3 8 L 13 8 M 3 12 L 13 12'); }
+path.x-big { d: path('M 2 2 L 14 14 M 14 2 L 2 14'); }
+path.burger-big { d: path('M 1 2 L 15 2 M 1 8 L 15 8 M 1 14 L 15 14'); }]]></style></defs>
+    <path class="arrow se"/>
+  </svg>
